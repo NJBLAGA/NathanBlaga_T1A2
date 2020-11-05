@@ -12,23 +12,37 @@
 
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <h4> Nathan Blaga</h4>
-                <!-- Logo -->
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+                <div class="nav-title">
+                    <a href="/index.html">NATHAN BLAGA</a>
+                </div>
             </div>
-            <ui class="nav-links">
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/src/about.html">ABOUT</a></li>
-                <li><a href="/src/projects.html">PROJECTS</a></li>
-                <li><a href="/src/skills.html">SKILLS</a></li>
-                <li class="currentLink"><a href="/src/blogs.html">BLOGS</a></li>
-                <li><a href="/src/contact.html">CONTACTS</a></li>
-                <!-- Nav Bar LinKS -->
-            </ui>
-        </nav>
+            <!-- Nathan Blaga "logo" on right side -->
+            <div class="nav-btn">
+                <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            <!-- "Burger Button dropdown box for mobile view" -->
+
+
+            <div class="nav-links">
+                <a href="/src/about.html">ABOUT</a>
+                <a href="/src/projects.html">PROJECTS</a>
+                <a href="/src/skills.html">SKILLS</a>
+                <a href="/src/blogs.html" id="currentLink">BLOGS</a>
+                <a href="/src/contact.html">CONTACT</a>
+            </div>
+        </div>
+        <!-- Nav links with hyperlinks -->
     </header>
+
     <script src="/src/main.js"></script>
+    <!-- Script to main.js -->
 </body>
 
 </html>

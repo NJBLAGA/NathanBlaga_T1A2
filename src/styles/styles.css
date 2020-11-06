@@ -165,7 +165,8 @@
         /* Styling Main text with fex and flex positioning */
         
         p span {
-            display: block;
+            display: flex;
+            flex-direction: column;
         }
         /* Styling segmented lines in p. */
         
@@ -194,7 +195,8 @@
         /* Font size  for h3 */
         
         p {
-            font-size: 18px;
+            font-size: 20px;
+            font-weight: 400;
             color: #ffd5df;
         }
         /* Font size and color for p */

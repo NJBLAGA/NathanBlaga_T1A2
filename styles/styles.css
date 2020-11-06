@@ -7,7 +7,7 @@
 
 body {
     background: linear-gradient(-45deg, #36b5e4, #2ce6ba, #f76f46, #f13b81, #9c2ae7);
-    background-size: 400% 400%;
+    background-size: 4000% 4000%;
     animation: gradient 15s ease infinite;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
@@ -186,3 +186,77 @@ a:hover {
 
 
 /* Mouse over link color change. */
+
+
+/* Contact Icons */
+
+.wrapper h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wrapper p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.media {
+    size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+}
+
+.wrapper ul {
+    text-align: center;
+    display: flexbox;
+    margin-right: 40px;
+}
+
+.wrapper li {
+    list-style: none;
+    margin: 30px 30px;
+    display: inline-flex;
+    font-size: 50px;
+    padding: 10px 10px;
+    color: #ffffff;
+    border: 5px solid #ffffff;
+    border-radius: 20%;
+    margin: 10px 10px;
+    transition: 0.5s;
+}
+
+.wrapper li:hover {
+    color: #292929;
+    border: 7px solid #292929;
+    transition: 0.5s;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: #ffffff;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #ffffff;
+}

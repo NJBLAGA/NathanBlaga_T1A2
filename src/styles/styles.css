@@ -1,262 +1,200 @@
-* {
-    box-sizing: border-box;
-}
-
-
-/* Remove default styling options */
-
-body {
-    background: linear-gradient(-45deg, #36b5e4, #2ce6ba, #f76f46, #f13b81, #9c2ae7);
-    background-size: 4000% 4000%;
-    animation: gradient 15s ease infinite;
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-/* Body stlying + linear gradient background */
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-
-/* "Animation" of changing colors at 0, 50 and 100% of the animation itself. */
-
-
-/* Body styling */
-
-.nav {
-    height: 55px;
-    width: 100%;
-    background-color: #2e2b2b;
-    font-weight: 800;
-    position: relative;
-}
-
-
-/* Navbar styling */
-
-.nav a {
-    text-decoration: none;
-}
-
-
-/* Remove udnerline to "Nathan Blaga" */
-
-.nav>.nav-header {
-    display: inline;
-}
-
-
-/* Display and styling to nav link texts*/
-
-.nav>.nav-header>.nav-title {
-    display: inline-block;
-    font-size: 22px;
-    color: #fff;
-    padding: 10px 10px 10px 10px;
-}
-
-
-/* Style Nav link texts styling, positioning and behaviour */
-
-.nav>.nav-btn {
-    display: none;
-}
-
-
-/* Hide "burger" button while in desktop mode. */
-
-.nav>.nav-links {
-    display: inline;
-    float: right;
-    font-size: 18px;
-}
-
-
-/* Placement of nav links in nav */
-
-.nav>.nav-links>a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    text-decoration: none;
-    color: #efefef;
-}
-
-
-/* Positioning of navk links in navbar */
-
-.nav>#nav-check {
-    display: none;
-}
-
-
-/* Remove "Nathan Blaga" check */
-
-@media (max-width:600px) {
-    .nav>.nav-btn {
-        display: inline-block;
-        position: absolute;
-        right: 0px;
-        top: 0px;
-    }
-    /*When screen @ 600px or less, display "burger icon" and style it as above.  */
-    .nav>.nav-btn>label {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        padding: 13px;
-    }
-    /* Positioning of "burger" icon, */
-    .nav>.nav-btn>label:hover,
-    .nav #nav-check:checked~.nav-btn>label {
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-    /* Background color of sldie down bar in mobile view. */
-    .nav>.nav-btn>label>span {
-        display: block;
-        width: 25px;
-        height: 10px;
-        border-top: 2px solid #eee;
-    }
-    /* "Burger" icon styling. */
-    .nav>.nav-links {
-        position: absolute;
-        display: block;
-        width: 100%;
-        background-color: #333;
-        height: 0px;
-        transition: all 0.3s ease-in;
-        overflow-y: hidden;
-        top: 50px;
-        left: 0px;
-    }
-    /* Placement of nav links in drop down bar. */
-    .nav>.nav-links>a {
-        display: block;
-        width: 100%;
-    }
-    /* Styling nav links in a vertical display. */
-    .nav>#nav-check:not(:checked)~.nav-links {
-        height: 0px;
-    }
-    /* Control visibility of navbar/icon while navigating through site. */
-    .nav>#nav-check:checked~.nav-links {
-        height: calc(100vh - 50px);
-        overflow-y: auto;
-    }
-}
-
-
-/* Control visibility of navbar/icon while navigating through site. */
-
-#currentLink {
-    color: #2ce6ba;
-}
-
-
-/* Color state of current page. */
-
-a {
-    color: white;
-}
-
-
-/* Color state of unvisited link.  */
-
-a:visited {
-    color: white;
-}
-
-
-/* Color state of visited link.    */
-
-a:hover {
-    color: white;
-}
-
-
-/* Mouse over link color change. */
-
-
-/* Contact Icons */
-
-.wrapper h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter;
-    font-size: 40px;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.wrapper p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: lighter;
-    font-size: 50px;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.media {
-    size: 80px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-55%, -50%);
-}
-
-.wrapper ul {
-    text-align: center;
-    display: flexbox;
-    margin-right: 40px;
-}
-
-.wrapper li {
-    list-style: none;
-    margin: 30px 30px;
-    display: inline-flex;
-    font-size: 50px;
-    padding: 10px 10px;
-    color: #ffffff;
-    border: 5px solid #ffffff;
-    border-radius: 20%;
-    margin: 10px 10px;
-    transition: 0.5s;
-}
-
-.wrapper li:hover {
-    color: #292929;
-    border: 7px solid #292929;
-    transition: 0.5s;
-}
-
-
-/* unvisited link */
-
-a:link {
-    color: #ffffff;
-}
-
-
-/* visited link */
-
-a:visited {
-    color: #ffffff;
-}
+        * {
+            box-sizing: border-box;
+        }
+        /* Remove default styling options */
+        /* Nav-Bar Styling */
+        
+        .nav {
+            height: 55px;
+            width: 100%;
+            background-color: #2e2b2b;
+            font-weight: 800;
+            position: relative;
+        }
+        /* Navbar styling */
+        
+        .nav a {
+            text-decoration: none;
+        }
+        /* Remove udnerline to "Nathan Blaga" */
+        
+        .nav>.nav-header {
+            display: inline;
+        }
+        /* Display and styling to nav link texts*/
+        
+        .nav>.nav-header>.nav-title {
+            display: inline-block;
+            font-size: 22px;
+            color: #fff;
+            padding: 10px 10px 10px 10px;
+        }
+        /* Style Nav link texts styling, positioning and behaviour */
+        
+        .nav>.nav-btn {
+            display: none;
+        }
+        /* Hide "burger" button while in desktop mode. */
+        
+        .nav>.nav-links {
+            display: inline;
+            float: right;
+            font-size: 18px;
+        }
+        /* Placement of nav links in nav */
+        
+        .nav>.nav-links>a {
+            display: inline-block;
+            padding: 13px 10px 13px 10px;
+            text-decoration: none;
+            color: #efefef;
+        }
+        /* Positioning of navk links in navbar */
+        
+        .nav>#nav-check {
+            display: none;
+        }
+        /* Remove "Nathan Blaga" check */
+        
+        @media (max-width:600px) {
+            .nav>.nav-btn {
+                display: inline-block;
+                position: absolute;
+                right: 0px;
+                top: 0px;
+            }
+            /*When screen @ 600px or less, display "burger icon" and style it as above.  */
+            .nav>.nav-btn>label {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                padding: 13px;
+            }
+            /* Positioning of "burger" icon, */
+            .nav>.nav-btn>label:hover,
+            .nav #nav-check:checked~.nav-btn>label {
+                background-color: rgba(0, 0, 0, 0.3);
+            }
+            /* Background color of sldie down bar in mobile view. */
+            .nav>.nav-btn>label>span {
+                display: block;
+                width: 25px;
+                height: 10px;
+                border-top: 2px solid #eee;
+            }
+            /* "Burger" icon styling. */
+            .nav>.nav-links {
+                position: absolute;
+                display: block;
+                width: 100%;
+                background-color: #333;
+                height: 0px;
+                transition: all 0.3s ease-in;
+                overflow-y: hidden;
+                top: 50px;
+                left: 0px;
+            }
+            /* Placement of nav links in drop down bar. */
+            .nav>.nav-links>a {
+                display: block;
+                width: 100%;
+            }
+            /* Styling nav links in a vertical display. */
+            .nav>#nav-check:not(:checked)~.nav-links {
+                height: 0px;
+            }
+            /* Control visibility of navbar/icon while navigating through site. */
+            .nav>#nav-check:checked~.nav-links {
+                height: calc(100vh - 50px);
+                overflow-y: auto;
+            }
+        }
+        /* Control visibility of navbar/icon while navigating through site. */
+        
+        #currentLink {
+            color: #2ce6ba;
+        }
+        /* Color state of current page. */
+        
+        a {
+            color: white;
+        }
+        /* Color state of unvisited link.  */
+        
+        a:visited {
+            color: white;
+        }
+        /* Color state of visited link.    */
+        
+        a:hover {
+            color: white;
+        }
+        /* Mouse over link color change. */
+        /* Main Background Color */
+        
+        body {
+            background: linear-gradient(-45deg, #36b5e4, #2ce6ba, #f76f46, #f13b81, #9c2ae7);
+            background-size: 4000% 4000%;
+            animation: gradient 15s ease infinite;
+            margin: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Body stlying + linear gradient background */
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        /* "Animation" of changing colors at 0, 50 and 100% of the animation itself. */
+        /* Main Text */
+        
+        .main {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            margin: auto;
+        }
+        /* Styling Main text with fex and flex positioning */
+        
+        p span {
+            display: block;
+        }
+        /* Styling segmented lines in p. */
+        
+        h1,
+        h2,
+        h3 {
+            color: #fff;
+        }
+        /* Color styling to h1-h3 */
+        
+        h1 {
+            margin-bottom: 30px;
+            font-size: 44px;
+        }
+        /* Font size and margin for h1 */
+        
+        h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+        /* Font size and margin for h2 */
+        
+        h3 {
+            font-size: 21px;
+        }
+        /* Font size  for h3 */
+        
+        p {
+            font-size: 18px;
+            color: #ffd5df;
+        }
+        /* Font size and color for p */

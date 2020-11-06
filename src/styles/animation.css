@@ -1,0 +1,90 @@
+/* Contact Icons */
+
+.wrapper h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* Styling for Icon container */
+
+.wrapper p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* Font/color/margin for p in container wrapper */
+
+.media {
+    size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+}
+
+
+/* Placement and margin for Media and container */
+
+.wrapper ul {
+    text-align: center;
+    display: flexbox;
+    margin-right: 40px;
+}
+
+
+/* Adding flexbox and margin to continer and listed elements */
+
+.wrapper li {
+    list-style: none;
+    margin: 30px 30px;
+    display: inline-flex;
+    font-size: 50px;
+    padding: 2% 2%;
+    color: #ffffff;
+    border: 5px solid #ffffff;
+    border-radius: 20%;
+    margin: 10px 10px;
+    transition: 0.5s;
+}
+
+
+/* Removing list properties, adding margins, paddings and border to listed elements. */
+
+.wrapper li:hover {
+    color: #292929;
+    border: 7px solid #292929;
+    transition: 0.5s;
+}
+
+
+/* Adding hover color change feature on mouseover */
+
+a:link {
+    color: #ffffff;
+}
+
+
+/* unvisited link */
+
+a:visited {
+    color: #ffffff;
+}
+
+
+/* visited link */

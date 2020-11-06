@@ -68,7 +68,7 @@
 
 .wrapper li:hover {
     color: #292929;
-    border: 7px solid #292929;
+    border: 7px dashed #292929;
     transition: 0.5s;
 }
 
@@ -88,3 +88,129 @@ a:visited {
 
 
 /* visited link */
+
+
+/* Blog Popups */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+    min-height: 100vh;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    appearance: none;
+    border: none;
+    outline: none;
+    display: inline-block;
+    background-color: #e73c7e;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba( 0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+.button.large {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s;
+}
+
+@media screen and (max-width: 738px) {
+    .popup {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Desktop view - breakpoints */
+}
+
+@media screen and (max-width: 420px) {
+    .popup {
+        width: 66.5%;
+        height: 90%;
+        display: flex;
+    }
+    /* Mobile view - breakpoints */
+}
+
+.popup.is-active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.popup-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.popup-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    padding: 50px 30px;
+    background-color: #292929;
+    border-radius: 16px;
+    box-shadow: rgba( 0, 0, 0, 0.1);
+}
+
+.popup h2 {
+    color: #23d5ab;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.popup h3 {
+    color: #23a6d5;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.popup p {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.popup p:last-of-type {
+    margin-bottom: 30px;
+}

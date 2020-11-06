@@ -6,9 +6,30 @@
 /* Remove default styling options */
 
 body {
+    background: linear-gradient(-45deg, #36b5e4, #2ce6ba, #f76f46, #f13b81, #9c2ae7);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* Body stlying + linear gradient background */
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* "Animation" of changing colors at 0, 50 and 100% of the animation itself. */
 
 
 /* Body styling */
@@ -139,7 +160,7 @@ body {
 /* Control visibility of navbar/icon while navigating through site. */
 
 #currentLink {
-    color: rgb(0, 204, 255);
+    color: #2ce6ba;
 }
 
 

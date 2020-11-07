@@ -1,272 +1,509 @@
-        * {
-            box-sizing: border-box;
-        }
-        /* Remove default styling options */
-        /* Nav-Bar Styling */
-        
-        .nav {
-            height: 55px;
-            width: 100%;
-            background-color: #2e2b2b;
-            font-weight: 800;
-            position: relative;
-        }
-        /* Navbar styling */
-        
-        .nav a {
-            text-decoration: none;
-        }
-        /* Remove udnerline to "Nathan Blaga" */
-        
-        .nav>.nav-header {
-            display: inline;
-        }
-        /* Display and styling to nav link texts*/
-        
-        .nav>.nav-header>.nav-title {
-            display: inline-block;
-            font-size: 22px;
-            color: #fff;
-            padding: 10px 10px 10px 10px;
-        }
-        /* Style Nav link texts styling, positioning and behaviour */
-        
-        .nav>.nav-btn {
-            display: none;
-        }
-        /* Hide "burger" button while in desktop mode. */
-        
-        .nav>.nav-links {
-            display: inline;
-            float: right;
-            font-size: 18px;
-        }
-        /* Placement of nav links in nav */
-        
-        .nav>.nav-links>a {
-            display: inline-block;
-            padding: 13px 10px 13px 10px;
-            text-decoration: none;
-            color: #efefef;
-        }
-        /* Positioning of navk links in navbar */
-        
-        .nav>#nav-check {
-            display: none;
-        }
-        /* Remove "Nathan Blaga" check */
-        
-        @media (max-width:600px) {
+            * {
+                box-sizing: border-box;
+            }
+            /* Remove default styling options */
+            /* Nav-Bar Styling */
+            
+            .nav {
+                height: 55px;
+                width: 100%;
+                background-color: #2e2b2b;
+                font-weight: 800;
+                position: relative;
+            }
+            /* Navbar styling */
+            
+            .nav a {
+                text-decoration: none;
+            }
+            /* Remove udnerline to "Nathan Blaga" */
+            
+            .nav>.nav-header {
+                display: inline;
+            }
+            /* Display and styling to nav link texts*/
+            
+            .nav>.nav-header>.nav-title {
+                display: inline-block;
+                font-size: 22px;
+                color: #fff;
+                padding: 10px 10px 10px 10px;
+            }
+            /* Style Nav link texts styling, positioning and behaviour */
+            
             .nav>.nav-btn {
-                display: inline-block;
-                position: absolute;
-                right: 0px;
-                top: 0px;
+                display: none;
             }
-            /*When screen @ 600px or less, display "burger icon" and style it as above.  */
-            .nav>.nav-btn>label {
-                display: inline-block;
-                width: 50px;
-                height: 50px;
-                padding: 13px;
-            }
-            /* Positioning of "burger" icon, */
-            .nav>.nav-btn>label:hover,
-            .nav #nav-check:checked~.nav-btn>label {
-                background-color: rgba(0, 0, 0, 0.3);
-            }
-            /* Background color of sldie down bar in mobile view. */
-            .nav>.nav-btn>label>span {
-                display: block;
-                width: 25px;
-                height: 10px;
-                border-top: 2px solid #eee;
-            }
-            /* "Burger" icon styling. */
+            /* Hide "burger" button while in desktop mode. */
+            
             .nav>.nav-links {
-                position: absolute;
-                display: block;
-                width: 100%;
-                background-color: #333;
-                height: 0px;
-                transition: all 0.3s ease-in;
-                overflow-y: hidden;
-                top: 50px;
-                left: 0px;
+                display: inline;
+                float: right;
+                font-size: 18px;
             }
-            /* Placement of nav links in drop down bar. */
+            /* Placement of nav links in nav */
+            
             .nav>.nav-links>a {
-                display: block;
-                width: 100%;
+                display: inline-block;
+                padding: 13px 10px 13px 10px;
+                text-decoration: none;
+                color: #efefef;
             }
-            /* Styling nav links in a vertical display. */
-            .nav>#nav-check:not(:checked)~.nav-links {
-                height: 0px;
+            /* Positioning of navk links in navbar */
+            
+            .nav>#nav-check {
+                display: none;
+            }
+            /* Remove "Nathan Blaga" check */
+            
+            @media (max-width:600px) {
+                .nav>.nav-btn {
+                    display: inline-block;
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                }
+                /*When screen @ 600px or less, display "burger icon" and style it as above.  */
+                .nav>.nav-btn>label {
+                    display: inline-block;
+                    width: 50px;
+                    height: 50px;
+                    padding: 13px;
+                }
+                /* Positioning of "burger" icon, */
+                .nav>.nav-btn>label:hover,
+                .nav #nav-check:checked~.nav-btn>label {
+                    background-color: rgba(0, 0, 0, 0.3);
+                }
+                /* Background color of sldie down bar in mobile view. */
+                .nav>.nav-btn>label>span {
+                    display: block;
+                    width: 25px;
+                    height: 10px;
+                    border-top: 2px solid #eee;
+                }
+                /* "Burger" icon styling. */
+                .nav>.nav-links {
+                    position: absolute;
+                    display: block;
+                    width: 100%;
+                    background-color: #333;
+                    height: 0px;
+                    transition: all 0.3s ease-in;
+                    overflow-y: hidden;
+                    top: 50px;
+                    left: 0px;
+                }
+                /* Placement of nav links in drop down bar. */
+                .nav>.nav-links>a {
+                    display: block;
+                    width: 100%;
+                }
+                /* Styling nav links in a vertical display. */
+                .nav>#nav-check:not(:checked)~.nav-links {
+                    height: 0px;
+                }
+                /* Control visibility of navbar/icon while navigating through site. */
+                .nav>#nav-check:checked~.nav-links {
+                    height: calc(100vh - 50px);
+                    overflow-y: auto;
+                }
             }
             /* Control visibility of navbar/icon while navigating through site. */
-            .nav>#nav-check:checked~.nav-links {
-                height: calc(100vh - 50px);
-                overflow-y: auto;
+            
+            #currentLink {
+                color: #2ce6ba;
             }
-        }
-        /* Control visibility of navbar/icon while navigating through site. */
-        
-        #currentLink {
-            color: #2ce6ba;
-        }
-        /* Color state of current page. */
-        
-        a {
-            color: white;
-        }
-        /* Color state of unvisited link.  */
-        
-        a:visited {
-            color: white;
-        }
-        /* Color state of visited link.    */
-        
-        a:hover {
-            color: white;
-        }
-        /* Mouse over link color change. */
-        /* Main Background Color */
-        
-        body {
-            background: linear-gradient(-45deg, #36b5e4, #2ce6ba, #f76f46);
-            background-size: 4000% 4000%;
-            animation: gradient 10s ease infinite;
-            margin: 0px;
-            font-family: 'Poppins', sans-serif;
-        }
-        /* Body stlying + linear gradient background */
-        
-        @keyframes gradient {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-        /* "Animation" of changing colors at 0, 50 and 100% of the animation itself. */
-        /* Main Text */
-        
-        .main {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            font-family: 'Poppins', sans-serif;
-            margin: auto;
-        }
-        /* Styling Main text with fex and flex positioning */
-        
-        h1,
-        h2,
-        h3 {
-            color: #fff;
-        }
-        /* Color styling to h1-h3 */
-        
-        h1 {
-            margin-bottom: 30px;
-            font-size: 44px;
-        }
-        /* Font size and margin for h1 */
-        
-        p {
-            font-size: 20px;
-            font-weight: 400;
-            margin: auto;
-            text-align: center;
-            text-justify: center;
-            color: #fff;
-        }
-        /* Font size and color for p */
-        /* IMAGES */
-        
-        .nathanblaga {
-            display: block;
-            width: 40%;
-            margin: auto;
-            margin-top: 100px;
-            margin-bottom: 50px;
-            border-radius: 50%;
-        }
-        
-        .nathanblagatwo {
-            display: block;
-            width: 40%;
-            margin: auto;
-            margin-top: 40px;
-            margin-bottom: 50px;
-            border-radius: 50%;
-        }
-        
-        .grad1 {
-            display: block;
-            width: 40%;
-            margin: auto;
-            margin-top: 40px;
-            margin-bottom: 50px;
-            border-radius: 50%;
-        }
-        
-        .powerlifting {
-            display: block;
-            width: 40%;
-            margin: auto;
-            margin-top: 40px;
-            margin-bottom: 50px;
-            border-radius: 50%;
-        }
-        
-        .projects .websites {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 100px;
-        }
-        
-        .project1 {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: flex-start;
-            width: 400px;
-            height: 200px;
-            margin: 50px 50px;
-            padding: 0 0;
-        }
-        
-        @media (max-width:540px) {
-            .project1 {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: flex-start;
-                width: 120px;
-                height: 50px;
-                margin: 10px 10px;
-                padding: 0 0;
-            }
-            .url {
-                font-size: 5%;
-                font-weight: 600;
-            }
-            .url {
+            /* Color state of current page. */
+            
+            a {
                 color: white;
             }
             /* Color state of unvisited link.  */
-            .url:visited {
+            
+            a:visited {
                 color: white;
             }
             /* Color state of visited link.    */
-            .url:hover {
+            
+            a:hover {
                 color: white;
             }
             /* Mouse over link color change. */
             /* Main Background Color */
-        }
+            
+            body {
+                background: linear-gradient(-45deg, #36b5e4, #2ce6ba, #f76f46);
+                background-size: 4000% 4000%;
+                animation: gradient 10s ease infinite;
+                margin: 0px;
+                font-family: 'Poppins', sans-serif;
+            }
+            /* Body stlying + linear gradient background */
+            
+            @keyframes gradient {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+            /* "Animation" of changing colors at 0, 50 and 100% of the animation itself. */
+            /* Main Text */
+            
+            .main {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                margin: auto;
+            }
+            /* Styling Main text with fex and flex positioning */
+            
+            h1,
+            h2,
+            h3 {
+                color: #fff;
+            }
+            /* Color styling to h1-h3 */
+            
+            h1 {
+                margin-bottom: 30px;
+                font-size: 44px;
+            }
+            /* Font size and margin for h1 */
+            
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                margin: auto;
+                text-align: center;
+                text-justify: center;
+                color: #fff;
+            }
+            /* Font size and color for p */
+            /* IMAGES */
+            
+            .nathanblaga {
+                display: block;
+                width: 40%;
+                margin: auto;
+                margin-top: 100px;
+                margin-bottom: 50px;
+                border-radius: 50%;
+            }
+            
+            .nathanblagatwo {
+                display: block;
+                width: 40%;
+                margin: auto;
+                margin-top: 40px;
+                margin-bottom: 50px;
+                border-radius: 50%;
+            }
+            
+            .grad1 {
+                display: block;
+                width: 40%;
+                margin: auto;
+                margin-top: 40px;
+                margin-bottom: 50px;
+                border-radius: 50%;
+            }
+            
+            .powerlifting {
+                display: block;
+                width: 40%;
+                margin: auto;
+                margin-top: 40px;
+                margin-bottom: 50px;
+                border-radius: 50%;
+            }
+            
+            @media (max-width:280px) {
+                .blog {
+                    margin: auto;
+                }
+                .blog h1 {
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .blogimage {
+                    display: block;
+                    width: 150px;
+                    height: 100px;
+                    margin: auto;
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                    border-radius: 70%;
+                }
+                .blog p {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    width: 80%;
+                    height: 400px;
+                    margin: auto;
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                    font-size: 8px;
+                    line-break: 4;
+                }
+                .cycle {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+                .cycle .button.large {
+                    font-size: 10px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                    padding: 10px 5px;
+                    align-items: flex-end;
+                    margin-top: 10px;
+                }
+            }
+            
+            @media (min-width:300px) {
+                .blog {
+                    margin: auto;
+                }
+                .blog h1 {
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .blogimage {
+                    display: block;
+                    width: 150px;
+                    height: 100px;
+                    margin: auto;
+                    margin-top: 40px;
+                    margin-bottom: 20px;
+                    border-radius: 70%;
+                }
+                .blog p {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    width: 80%;
+                    height: 550px;
+                    margin: auto;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    font-size: 10px;
+                    line-break: 4;
+                }
+                .cycle {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+                .cycle .button.large {
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                    padding: 10px 2px;
+                    align-items: flex-end;
+                    margin-top: 10px;
+                }
+            }
+            
+            @media (min-width:319px) {
+                .blog {
+                    margin: auto;
+                }
+                .blog h1 {
+                    margin-bottom: 5px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .blogimage {
+                    display: block;
+                    width: 200px;
+                    height: 100px;
+                    margin: auto;
+                    margin-top: 40px;
+                    margin-bottom: 5px;
+                    border-radius: 70%;
+                }
+                .blog p {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    width: 90%;
+                    height: 800px;
+                    margin: auto;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    font-size: 12px;
+                    line-break: 4;
+                }
+                .cycle {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+                .cycle .button.large {
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                    padding: 10px 2px;
+                    align-items: flex-end;
+                    margin-top: 10px;
+                }
+            }
+            
+            @media (min-width:540px) {
+                .blog {
+                    margin: auto;
+                }
+                .blog h1 {
+                    margin-bottom: 20px;
+                    font-size: 40px;
+                    text-align: center;
+                }
+                .blogimage {
+                    display: block;
+                    width: 350px;
+                    height: 200px;
+                    margin: auto;
+                    margin-top: 40px;
+                    margin-bottom: 50px;
+                    border-radius: 70%;
+                }
+                .blog p {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    width: 90%;
+                    height: 1400px;
+                    margin: auto;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    line-break: 4;
+                }
+                .cycle {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+                .cycle .button.large {
+                    font-size: 25px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                    padding: 10px 10px;
+                    align-items: flex-end;
+                    margin-top: 10px;
+                    margin-bottom: 15px;
+                }
+            }
+            
+            @media (min-width:1000px) {
+                .blog {
+                    margin: auto;
+                }
+                .blog h1 {
+                    margin-bottom: 20px;
+                    font-size: 40px;
+                    text-align: center;
+                }
+                .blogimage {
+                    display: block;
+                    width: 250px;
+                    height: 100px;
+                    margin: auto;
+                    margin-top: 40px;
+                    margin-bottom: 50px;
+                    border-radius: 70%;
+                }
+                .blog p {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    width: 90%;
+                    height: 650px;
+                    margin: auto;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    line-break: 4;
+                }
+                .cycle {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 20px;
+                }
+                .cycle .button.large {
+                    font-size: 25px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                    padding: 10px 10px;
+                    align-items: flex-end;
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                }
+            }
+            
+            .projects .websites {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 100px;
+            }
+            
+            .project1 {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                width: 400px;
+                height: 200px;
+                margin: 50px 50px;
+                padding: 0 0;
+            }
+            
+            @media (max-width:540px) {
+                .project1 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    width: 120px;
+                    height: 50px;
+                    margin: 10px 10px;
+                    padding: 0 0;
+                }
+                .url {
+                    font-size: 5%;
+                    font-weight: 600;
+                }
+                .url {
+                    color: white;
+                }
+                /* Color state of unvisited link.  */
+                .url:visited {
+                    color: white;
+                }
+                /* Color state of visited link.    */
+                .url:hover {
+                    color: white;
+                }
+                /* Mouse over link color change. */
+                /* Main Background Color */
+            }

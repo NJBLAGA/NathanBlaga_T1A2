@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/src/styles/styles.css">
     <link rel="stylesheet" href="/src/styles/animation.css">
     <title>Nathan Blaga</title>
@@ -44,25 +45,23 @@
     <div class="main">
         <h1>ABOUT ME</h1>
         <p>
-            <span> ipsum dolor sit amet, consectetur adipisicing elit.</span>
-            <span> nihil provident nesciunt veritatis, dolore distinctio, aspernatur debitis beatae earum repellat.</span>
-            <span> voluptates neque nisi non deleniti quam minus eaque voluptatem hic?</span>
+            ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
     </div>
 
     <main class="aboutme">
         <article class="button large popup-button" data-target="#popup-1">History</article>
         <article class="button large popup-button" data-target="#popup-2">Hobbies </article>
-        <article class="button large popup-button" data-target="#popup-3">Resume</article>
+        <article class="button large popup-button" data-target="#popup-3">Future</article>
     </main>
 
     <div class="popup" id="popup-1">
         <div class="popup-overlay"></div>
         <div class="popup-inner">
-            <h2>#1 - New Journey by Nathan Blaga</h2>
-            <h3>Date Published: 16/02/20</h3>
-            <p> <span> Non iste voluptatibus velit cum in nulla ipsum provident dolor delectus? Incidunt consectetur deleniti ut repudiandae facilis facere eius tempore maxime. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Voluptas non iste voluptatibus velit cum in nulla ipsum provident dolor delectus? Incidunt consectetur deleniti ut repudiandae facilis facere eius tempore maxime. </span></p>
+            <h2>History</h2>
+            <h3>A walk down memory lane . . .</h3>
+            <p> I did accounting and finance, worked for a bit. Done acting and directing.</p>
+            <img class="grad1" src="/src/images/gradone.jpg" alt="Image of me throwing my grad hat up">
             <button class="button popup-button" data-target="#popup-1">Close</button>
         </div>
     </div>
@@ -70,10 +69,10 @@
     <div class="popup" id="popup-2">
         <div class="popup-overlay"></div>
         <div class="popup-inner">
-            <h2>#2 - Terminal Basis by Nathan Blaga</h2>
-            <h3>Date Published: 4/04/20</h3>
-            <p><span> ipsum dolor sit amet consectetur adipisicing elit. Voluptas non iste voluptatibus velit cum in nulla ipsum provident dolor delectus? Incidunt consectetur deleniti ut repudiandae facilis facere eius tempore maxime. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. </span> </p>
+            <h2>Hobbies</h2>
+            <h3>What I get up to when I'm not coding . . .</h3>
+            <p>I Like lifting heavy shit, walking in rainforests with lions tigers and bears. Cuddles with Nicole, and eating pizza. </p>
+            <img class="powerlifting" src="/src/images/powerlifting.jpg" alt="Image of me deadlifting">
             <button class="button popup-button" data-target="#popup-2">Close</button>
         </div>
     </div>
@@ -81,14 +80,23 @@
     <div class="popup" id="popup-3">
         <div class="popup-overlay"></div>
         <div class="popup-inner">
-            <h2>#3 - HTML5 by Nathan Blaga</h2>
-            <h3>Date Published: 09/05/20</h3>
-            <p><span> ipsum dolor sit amet consectetur adipisicing elit. Voluptas non iste voluptatibus velit cum in nulla ipsum provident dolor delectus? Incidunt consectetur deleniti ut repudiandae facilis facere eius tempore maxime. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. </span> </p>
+            <h2>Future</h2>
+            <h3>What's Next?</h3>
+            <p>Hey Looking to get a job. Click below to download my resume.</p>
+
+            <main class="wrapper" class="download">
+                <ul>
+                    <li><a href="/docs/Nathan Blaga CV (2020).pd.pdf" download><i class="fa fa-download"></i></a></li>
+                </ul>
+            </main>
+
             <button class="button popup-button" data-target="#popup-3">Close</button>
         </div>
     </div>
     </main>
+
+    <img class="nathanblagatwo" src="/src/images/me2.jpg" alt="Image of Nathan Blaga">
+
 
     <script src="/src/main.js"></script>
     <!-- Script to main.js -->

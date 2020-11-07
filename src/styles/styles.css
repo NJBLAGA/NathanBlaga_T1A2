@@ -164,12 +164,6 @@
         }
         /* Styling Main text with fex and flex positioning */
         
-        p span {
-            display: flex;
-            flex-direction: column;
-        }
-        /* Styling segmented lines in p. */
-        
         h1,
         h2,
         h3 {
@@ -183,20 +177,96 @@
         }
         /* Font size and margin for h1 */
         
-        h2 {
-            margin-bottom: 20px;
-            font-size: 32px;
-        }
-        /* Font size and margin for h2 */
-        
-        h3 {
-            font-size: 21px;
-        }
-        /* Font size  for h3 */
-        
         p {
             font-size: 20px;
             font-weight: 400;
+            margin: auto;
+            text-align: center;
+            text-justify: center;
             color: #ffd5df;
         }
         /* Font size and color for p */
+        /* IMAGES */
+        
+        .nathanblaga {
+            display: block;
+            width: 40%;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            border-radius: 50%;
+        }
+        
+        .nathanblagatwo {
+            display: block;
+            width: 40%;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 50px;
+            border-radius: 50%;
+        }
+        
+        .grad1 {
+            display: block;
+            width: 40%;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 50px;
+            border-radius: 50%;
+        }
+        
+        .powerlifting {
+            display: block;
+            width: 40%;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 50px;
+            border-radius: 50%;
+        }
+        
+        .projects .websites {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+        
+        .project1 {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            width: 400px;
+            height: 200px;
+            margin: 50px 50px;
+            padding: 0 0;
+        }
+        
+        @media (max-width:540px) {
+            .project1 {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                width: 120px;
+                height: 50px;
+                margin: 10px 10px;
+                padding: 0 0;
+            }
+            .url {
+                font-size: 5%;
+                font-weight: 600;
+            }
+            .url {
+                color: white;
+            }
+            /* Color state of unvisited link.  */
+            .url:visited {
+                color: white;
+            }
+            /* Color state of visited link.    */
+            .url:hover {
+                color: white;
+            }
+            /* Mouse over link color change. */
+            /* Main Background Color */
+        }

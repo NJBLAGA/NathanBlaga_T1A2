@@ -2,7 +2,127 @@
                 box-sizing: border-box;
             }
             /* Remove default styling options */
-            /* Nav-Bar Styling */
+            
+            p span {
+                display: flex;
+                flex-wrap: wrap;
+                margin: auto;
+                font-size: 20px;
+                font-weight: 400;
+                text-align: center;
+                text-align: center;
+                justify-content: center;
+                margin-bottom: 3px;
+            }
+            /* Line Breaks */
+            
+            @media (max-width:600px) {
+                h1,
+                h2,
+                h3,
+                p span {
+                    display: block;
+                    flex-wrap: wrap;
+                    margin: auto;
+                    font-size: 12px;
+                    font-weight: 400;
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+            
+            .main {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                margin: auto;
+            }
+            /* Styling Main text with fex and flex positioning */
+            
+            h1,
+            h2,
+            h3 {
+                color: #fff;
+            }
+            /* Color styling to h1-h3 */
+            
+            h1 {
+                margin-bottom: 30px;
+                font-size: 44px;
+            }
+            /* Font size and margin for h1 */
+            
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                margin: auto;
+                text-align: center;
+                text-justify: center;
+                color: #fff;
+            }
+            /* Font size and color for p */
+            /* Footer */
+            /* Trademark */
+            
+            @media (min-width:540px) {
+                .trademark {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    background-color: rgb(5, 5, 5);
+                    color: white;
+                    text-align: center;
+                }
+            }
+            
+            @media (max-width:539px) {
+                .trademark {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    background-color: rgb(5, 5, 5);
+                    color: white;
+                    text-align: center;
+                }
+            }
+            
+            .quote {
+                font-style: italic;
+            }
+            
+            .signature {
+                font-size: 15px;
+                font-weight: 600;
+                float: right;
+                text-emphasis: bold;
+                margin-right: 6px;
+            }
+            
+            @media (min-width:540px) {
+                .quote {
+                    font-style: italic;
+                }
+                .signature {
+                    font-size: 25px;
+                    font-weight: 600;
+                    float: right;
+                    text-emphasis: bold;
+                }
+            }
+            
+            #history1::after {
+                content: "\a";
+                white-space: pre;
+            }
+            
+            #history2::before {
+                content: "\a";
+                white-space: pre;
+            }
+            /* NavBar */
             
             .nav {
                 height: 55px;
@@ -154,56 +274,46 @@
             }
             /* "Animation" of changing colors at 0, 50 and 100% of the animation itself. */
             /* Main Text */
-            
-            .main {
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                font-family: 'Poppins', sans-serif;
-                margin: auto;
-            }
-            /* Styling Main text with fex and flex positioning */
-            
-            h1,
-            h2,
-            h3 {
-                color: #fff;
-            }
-            /* Color styling to h1-h3 */
-            
-            h1 {
-                margin-bottom: 30px;
-                font-size: 44px;
-            }
-            /* Font size and margin for h1 */
-            
-            p {
-                font-size: 20px;
-                font-weight: 400;
-                margin: auto;
-                text-align: center;
-                text-justify: center;
-                color: #fff;
-            }
-            /* Font size and color for p */
             /* IMAGES */
             
             .nathanblaga {
                 display: block;
-                width: 40%;
+                width: 30%;
                 margin: auto;
-                margin-top: 100px;
+                margin-top: 50px;
                 margin-bottom: 50px;
                 border-radius: 50%;
             }
             
+            @media (max-width:600px) {
+                .nathanblaga {
+                    display: block;
+                    width: 50%;
+                    margin: auto;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    border-radius: 50%;
+                }
+            }
+            
             .nathanblagatwo {
                 display: block;
-                width: 40%;
+                width: 30%;
                 margin: auto;
                 margin-top: 40px;
                 margin-bottom: 50px;
                 border-radius: 50%;
+            }
+            
+            @media (max-width:600px) {
+                .nathanblagatwo {
+                    display: block;
+                    width: 50%;
+                    margin: auto;
+                    margin-top: 40px;
+                    margin-bottom: 50px;
+                    border-radius: 50%;
+                }
             }
             
             .grad1 {
@@ -269,31 +379,4 @@
                 }
                 /* Mouse over link color change. */
                 /* Main Background Color */
-            }
-            /* Trademark */
-            
-            .trademark {
-                display: flex;
-                flex-direction: row;
-                font-family: 'Poppins', sans-serif;
-                font-size: 25px;
-                font-weight: 800;
-                color: rgb(7, 7, 7);
-                text-align: center;
-                justify-content: center;
-                margin-bottom: 10px;
-            }
-            
-            @media (max-width:540px) {
-                .trademark {
-                    display: flex;
-                    flex-direction: row;
-                    font-family: 'Poppins', sans-serif;
-                    font-size: 10px;
-                    font-weight: 800;
-                    color: rgb(7, 7, 7);
-                    text-align: center;
-                    justify-content: center;
-                    margin-bottom: 10px;
-                }
             }

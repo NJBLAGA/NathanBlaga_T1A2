@@ -442,6 +442,17 @@ a:visited {
     align-items: flex-end;
 }
 
+@media (min-width:540px) {
+    .button.large {
+        font-size: 30px;
+        color: rgb(7, 7, 7);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        padding: 10px 10px;
+        align-items: flex-end;
+    }
+}
+
 
 /* Stylng for main button. */
 
@@ -528,23 +539,6 @@ a:visited {
     box-shadow: rgba( 0, 0, 0, 0.1);
 }
 
-@media screen and (max-width: 539px) {
-    .popup-inner {
-        position: relative;
-        margin-top: 20%;
-        width: 90%;
-        height: 85%;
-    }
-    button.button.popup-button {
-        margin-top: 20px;
-        margin: 0;
-        position: absolute;
-        left: 50%;
-        -ms-transform: translate(-50%, -200%);
-        transform: translate(-50%, -200%);
-    }
-}
-
 button.button.popup-button {
     margin-top: 20px;
     margin: 0;
@@ -552,6 +546,27 @@ button.button.popup-button {
     left: 50%;
     -ms-transform: translate(-50%, -100%);
     transform: translate(-50%, -100%);
+}
+
+@media screen and (max-width: 600px) {
+    .popup-inner {
+        position: relative;
+        z-index: 0;
+        max-width: 300px;
+        max-height: 400px;
+        padding: 5px 10px;
+        background-color: #292929;
+        border-radius: 16px;
+        box-shadow: rgba( 0, 0, 0, 0.1);
+    }
+    button.button.popup-button {
+        margin-top: 20px;
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
 }
 
 

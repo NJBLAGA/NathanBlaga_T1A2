@@ -3,41 +3,68 @@
             }
             /* Remove default styling options */
             
-            p span {
+            h1 {
+                margin-bottom: 30px;
+                font-size: 44px;
+            }
+            /* Font size and margin for h1 */
+            
+            h2 {
                 display: flex;
                 flex-wrap: wrap;
                 margin: auto;
                 font-size: 20px;
-                font-weight: 400;
+                font-weight: 600;
                 text-align: center;
                 justify-content: center;
                 margin-bottom: 3px;
             }
             /* Line Breaks */
             
-            h1,
-            h2,
-            h3,
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                margin: auto;
+                text-align: center;
+                text-justify: center;
+                color: #fff;
+            }
+            /* Font size and color for p */
+            
             p span {
                 display: block;
                 flex-wrap: wrap;
                 margin: auto;
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 400;
                 text-align: center;
                 justify-content: center;
             }
             
             @media (max-width:600px) {
-                h1,
-                h2,
-                h3,
+                h1 {
+                    margin-bottom: 3px;
+                    font-size: 30px;
+                }
+                h2 {
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin: auto;
+                    text-align: center;
+                    text-justify: center;
+                    color: #fff;
+                }
                 p span {
                     display: block;
                     flex-wrap: wrap;
                     margin: auto;
-                    font-size: 12px;
-                    font-weight: 400;
+                    font-size: 14px;
+                    font-weight: 200;
                     text-align: center;
                     justify-content: center;
                 }
@@ -53,27 +80,10 @@
             /* Styling Main text with fex and flex positioning */
             
             h1,
-            h2,
-            h3 {
+            h2 {
                 color: #fff;
             }
             /* Color styling to h1-h3 */
-            
-            h1 {
-                margin-bottom: 30px;
-                font-size: 44px;
-            }
-            /* Font size and margin for h1 */
-            
-            p {
-                font-size: 20px;
-                font-weight: 400;
-                margin: auto;
-                text-align: center;
-                text-justify: center;
-                color: #fff;
-            }
-            /* Font size and color for p */
             /* Footer */
             /* Trademark */
             

@@ -617,20 +617,20 @@
     
     button.button.popup-button {
         font-size: 25px;
-        margin-top: 20px;
+        margin-top: 15px;
         position: absolute;
         right: 0px;
         -ms-transform: translate(-50%, -100%);
-        transform: translate(-30%, -400%);
+        transform: translate(-30%, -330%);
     }
     
     button.button.dwb2 {
         font-size: 25px;
-        margin-top: 20px;
+        margin-top: 15px;
         position: absolute;
         right: 0px;
         -ms-transform: translate(-50%, -100%);
-        transform: translate(-20%, -150%);
+        transform: translate(-20%, -170%);
     }
     
     @media screen and (max-width: 539px) {
@@ -660,7 +660,7 @@
             position: absolute;
             right: 0px;
             -ms-transform: translate(-50%, -100%);
-            transform: translate(-20%, 90%);
+            transform: translate(-20%, -30%);
         }
     }
     
@@ -691,6 +691,6 @@
             position: absolute;
             right: 0px;
             -ms-transform: translate(-50%, -100%);
-            transform: translate(-20%, 260%);
+            transform: translate(-20%, 190%);
         }
     }

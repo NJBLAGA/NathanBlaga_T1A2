@@ -41,7 +41,7 @@
             display: flexbox;
             margin-right: 40px;
         }
-        /* Adding flexbox and margin to continer and listed elements */
+        /* When screen @ 541px or more, Adding flexbox and margin to continer and listed elements */
         .wrapper li {
             list-style: none;
             display: inline-flex;
@@ -50,7 +50,7 @@
             color: #ffffff;
             margin: 50px 10px;
         }
-        /* Removing list properties, adding margins, paddings and border to listed elements. */
+        /* When screen @ 541px or more, Removing list properties, adding margins, paddings and border to listed elements. */
     }
     
     @media (min-width:540px) {
@@ -59,7 +59,7 @@
             display: flexbox;
             margin-right: 40px;
         }
-        /* Adding flexbox and margin to continer and listed elements */
+        /* When screen @ 540px or more, Adding flexbox and margin to continer and listed elements */
         .wrapper li {
             list-style: none;
             display: inline-flex;
@@ -68,7 +68,7 @@
             color: #ffffff;
             margin: 10px 5px;
         }
-        /* Removing list properties, adding margins, paddings and border to listed elements. */
+        /* When screen @ 540px or more, adding margins, paddings and border to listed elements. */
     }
     
     @media (max-width:320px) {
@@ -80,11 +80,13 @@
             color: #ffffff;
             margin: 0px 4px;
         }
+        /* When screen @ 320px or less, Adding flexbox and margin to continer and listed elements */
         .wrapper ul {
             text-align: center;
             display: flexbox;
             margin-right: 30px;
         }
+        /* When screen @ 320px or less, Removing list properties, adding margins, paddings and border to listed elements. */
     }
     
     @media (min-width:321px) {
@@ -96,91 +98,98 @@
             color: #ffffff;
             margin: 0px 5px;
         }
+        /* When screen @ 321px or more, Adding flexbox and margin to continer and listed elements */
         .wrapper ul {
             text-align: center;
             display: flexbox;
             margin-right: 40px;
         }
+        /* When screen @ 321px or more, Removing list properties, adding margins, paddings and border to listed elements. */
     }
     
     .fa-html5:hover {
         color: #292929;
         transition: 0.5s;
     }
+    /* Add hover to html icon */
     
     .fa-css3:hover {
         color: #292929;
         transition: 0.5s;
     }
+    /* Add hover to css icon */
     
     .fa-jsfiddle:hover {
         color: #292929;
         transition: 0.5s;
     }
+    /* Add hover to jsfiddle icon */
     
     .fa-terminal:hover {
         color: #292929;
         transition: 0.5s;
     }
+    /* Add hover to terminal icon */
     
     .fa-git:hover {
         color: #292929;
         transition: 0.5s;
     }
+    /* Add hover to git icon */
     
     .fa-github:hover {
         color: #292929;
         transition: 0.5s;
     }
-    /* Adding hover color change feature on mouseover */
+    /* Add hover to github icon */
     
     .fa-facebook-square:hover {
         color: #292929;
         transition: 0.5s;
     }
-    /* Adding hover color change feature on mouseover */
+    /* Add hover to facebook icon */
     
     .fa-instagram:hover {
         color: #292929;
         transition: 0.5s;
     }
-    /* Adding hover color change feature on mouseover */
+    /* Add hover to instgram icon */
     
     .fa-twitter:hover {
         color: #292929;
         transition: 0.5s;
     }
-    /* Adding hover color change feature on mouseover */
+    /* Add hover to twitter icon */
     
     .fa-linkedin:hover {
         color: #292929;
         transition: 0.5s;
     }
-    /* Adding hover color change feature on mouseover */
+    /* Add hover to linked icon */
     
     .fa-github:hover {
         color: #292929;
         transition: 0.5s;
     }
-    /* Adding hover color change feature on mouseover */
+    /* Add hover to github icon */
     
     .fa-codepen:hover {
         color: #292929;
         transition: 0.5s;
     }
-    /* Adding hover color change feature on mouseover */
+    /* Add hover to codepen icon */
     
     .email:hover {
         color: #292929;
         transition: 0.5s;
     }
-    /* Adding hover color change feature on mouseover */
+    /* Add hover to email icon */
     
     .mobile:hover {
         color: #292929;
         transition: 0.5s;
     }
-    /* Adding hover color change feature on mouseover */
+    /* Add hover to mobile icon */
     
     a:link {
         color: #ffffff;
@@ -260,6 +269,7 @@
             margin-right: 5px;
         }
     }
+    /*When screen @ 280px or less, give all elements within blogs container above flex and margin properties.  */
     
     @media (min-width:300px) {
         .blog {
@@ -307,6 +317,7 @@
             margin-top: 10px;
         }
     }
+    /*When screen @ 300px or more, give all elements within blogs container above flex and margin properties.  */
     
     @media (min-width:319px) {
         .blog {
@@ -356,6 +367,7 @@
             margin-bottom: 30px;
         }
     }
+    /*When screen @ 319px or more, give all elements within blogs container above flex and margin properties.  */
     
     @media (min-width:540px) {
         .blog {
@@ -404,6 +416,7 @@
             margin-bottom: 30px;
         }
     }
+    /*When screen @ 540px or more, give all elements within blogs container above flex and margin properties.  */
     
     @media (min-width:1000px) {
         .blog {
@@ -452,6 +465,8 @@
             margin-bottom: 40px;
         }
     }
+    /*When screen @ 1000px or more, give all elements within blogs container above flex and margin properties.  */
+    /*  */
     /* About me popup boxes */
     
     .aboutme {
@@ -492,6 +507,7 @@
             margin-left: 2px;
         }
     }
+    /*When screen @ 539px or more, Styling  properties to all volume elements.*/
     
     @media screen and (max-width: 539px) {
         .aboutme {
@@ -499,7 +515,7 @@
             flex-wrap: wrap;
             align-items: center;
         }
-        /*When screen @ 539px or less, give all elements within aboutme container above flex  properties.  */
+        /*When screen @ 539px or less, give all elements within about me container above flex  properties.*/
     }
     
     .dwb {
@@ -507,6 +523,7 @@
         height: 100px;
         border-radius: 50%;
     }
+    /* Styling for download button */
     
     .button {
         appearance: none;
@@ -528,6 +545,7 @@
         align-content: center;
         justify-self: center;
     }
+    /* Styling for center popup */
     
     .button.large {
         font-size: 10px;
@@ -537,6 +555,7 @@
         padding: 5px 5px;
         align-items: flex-end;
     }
+    /* Styling for large button on about me page. */
     
     @media (min-width:540px) {
         .button.large {
@@ -548,7 +567,7 @@
             align-items: flex-end;
         }
     }
-    /* Stylng for main button. */
+    /*When screen @ 539px or less, change styling for large button on about me page..*/
     
     .popup {
         position: fixed;
@@ -579,19 +598,19 @@
         }
     }
     /* When screen @ 539 or less, give popup above flex properties. */
-    /* When screen @ 420 or less, give popup above flex properties. */
     
     .popup.is-active {
         opacity: 1;
         pointer-events: all;
         margin-bottom: 10px;
     }
+    /* Opacity control for popup box. */
     
     .popup.is-active .popup {
         align-content: center;
         justify-content: center;
     }
-    /* Opacacity control for popup box. */
+    /* Centering for popup box. */
     
     .popup-overlay {
         position: absolute;
@@ -614,6 +633,7 @@
         box-shadow: rgba( 0, 0, 0, 0.1);
         margin-top: 30px;
     }
+    /* Styling for popup card contents. */
     
     button.button.popup-button {
         font-size: 25px;
@@ -623,6 +643,7 @@
         -ms-transform: translate(-50%, -100%);
         transform: translate(-30%, -330%);
     }
+    /* Styling and poistioning for close button in popup box. */
     
     button.button.dwb2 {
         font-size: 25px;
@@ -632,6 +653,7 @@
         -ms-transform: translate(-50%, -100%);
         transform: translate(-20%, -170%);
     }
+    /* Secondary styling and poistioning for close button in popup box. */
     
     @media screen and (max-width: 539px) {
         .popup-inner {
@@ -663,6 +685,7 @@
             transform: translate(-20%, -30%);
         }
     }
+    /* When screen @ 539 or less, change styling and poistioning for close button in popup box. */
     
     @media screen and (max-width: 320px) {
         .popup-inner {
@@ -694,3 +717,4 @@
             transform: translate(-20%, 190%);
         }
     }
+    /* When screen @ 320 or less, change styling and poistioning for close button in popup box. */

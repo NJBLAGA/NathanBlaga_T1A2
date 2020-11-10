@@ -4,7 +4,7 @@
 
 ### **Published Portfolio Website:** [https://nathanblaga.netlify.app/](https://nathanblaga.netlify.app/)
 
-### **Nathan Blaga GitHub Repo:** [https://github.com/NJBLAGA](https://github.com/NJBLAGA)
+### **Nathan Blaga GitHub Repo:** [https://github.com/NJBLAGA/NathanBlaga_T1A2](https://github.com/NJBLAGA/NathanBlaga_T1A2)
 
 ### **Trello Board - BLAGA - Portfolio:** [https://trello.com/b/7GGV9YiE/portfolio](https://trello.com/b/7GGV9YiE/portfolio)
 
@@ -42,6 +42,46 @@
 - The sitemap below depicts from an early development stage a very simplistic, user-friendly flow between all pages throughtout the website.
 
  ![Portfolio Website Sitemap](./docs/Screenshots/Sitemap.jpg)
+
+### **Wireframes**
+
+- Wireframes for portfolio website in:
+  - Desktop View.
+  - Tablet View.
+  - Mobile View.
+
+### **Desktop View**
+
+![Homepage Desktop View](./docs/Screenshots/wfd1.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfd2.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfd3.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfd4.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfd5.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfd6.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfd7.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfd8.jpg)
+
+### **Tablet View**
+
+![Homepage Desktop View](./docs/Screenshots/wft1.jpg)
+![Homepage Desktop View](./docs/Screenshots/wft2.jpg)
+![Homepage Desktop View](./docs/Screenshots/wft3.jpg)
+![Homepage Desktop View](./docs/Screenshots/wft4.jpg)
+![Homepage Desktop View](./docs/Screenshots/wft5.jpg)
+![Homepage Desktop View](./docs/Screenshots/wft6.jpg)
+![Homepage Desktop View](./docs/Screenshots/wft7.jpg)
+![Homepage Desktop View](./docs/Screenshots/wft8.jpg)
+
+### **Mobile View**
+
+![Homepage Desktop View](./docs/Screenshots/wfm1.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfm2.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfm3.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfm4.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfm5.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfm6.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfm7.jpg)
+![Homepage Desktop View](./docs/Screenshots/wfm8.jpg)
 
 ### **Screenshots of Website:**
 
@@ -100,7 +140,7 @@
 
 ### **Target Audience**
 
-- The target audience of my website is that of;
+- The target audience of my website is that of:
 - Future employers.
   - The key purpose of this portfolio website is to desmonstrate my mindset, passion capabilities and talents for future employment.
 - Future clients.
@@ -112,8 +152,7 @@
 
 - Throughtout my creative process of developing this website, I considered variours stacks and platforms.
 - Inevitability  the website was developed around a few key stacks.
-- The latest version and current version of my protfolio website is compossed of the following;
-
+- The latest version and current version of my protfolio website is compossed of the following:
 - HTML 5
 - CSS
 - Java Script

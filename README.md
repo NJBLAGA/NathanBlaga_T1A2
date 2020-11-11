@@ -138,6 +138,15 @@
 ![Homepage Tablet View](./docs/Screenshots/tablet8.jpg)
 ![Homepage Mobile View](./docs/Screenshots/mobile8.jpg)
 
+### **Current Version**
+
+- The current version of the website in comparsion to the original desgin pitched throughtout the wireframes show minimal change.
+- The original desgin for the website was to include a transitional element that would scroll from the right side of the screen to the left.
+- The purpose of the page transition was to add value to the site's aesthetics. 
+- The page transition was implemented  into an early mockup of the website. However due to functionality restraints removed.
+- Tablet and mobile view of the website had minor changes made in regards to element positioning and sizing.
+- These changes were implemented to  maximize the sites effectiveness and how efficiently it performed on different platforms.
+
 ### **Target Audience**
 
 - The target audience of my website is that of:

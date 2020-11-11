@@ -13,16 +13,16 @@
 ### **Purpose of Website**
 
 - The purpose of my portfolio website is to create a professional platform in which I can demonstrate my abilities to future employers.
-- The wesbite in turn provides the audience with not only the current state of my talents, abilities and coding experince but an insight into my personailty, professional knowledge, interests, hobbies and mindset.
-- At its core the website was a project as well as a great indicator of where my strengths and weaknessess lie.
-  In turn it has created an internal 'roadmap' depicting a more visual understanding of which direction I wish to take on my coding journey.
+- The website in turn provides the audience with not only the current state of my talents, abilities and coding experience but an insight into my personality, professional knowledge, interests, hobbies and mindset.
+- At its core the website was a project as well as a great indicator of where my strengths and weaknesses lie.
+  In turn it has created an internal 'roadmap' depicting a more visual understanding of the direction I wish to take on my coding journey.
 
-### **Functionailty & Features of Website**
+### **Functionality & Features of Website**
 
-#### **Functionailty:**
+#### **Functionality:**
 
-- The website was desgined with the intention of a user friendly experience.
-- The content depicted throughout the website fulfills the desire purpose of the website in a manner that allows the user to extract the information and data in an easy and fluent fashion.
+- The website was designed with the intention of a user friendly experience.
+- The content depicted throughout the website fulfils the desired purpose in a manner that allows the user to extract the information and data in an easy and fluent fashion.
 - The website's functionality translates across all platforms;
   - Desktop
   - Tablets
@@ -30,16 +30,16 @@
 
 #### **Features:**
 
-- The colour schemes and font styling of the website makes the website very appealing, colourful and welcoming.
-- The nav-bar allows for easy navigation between all pages of the website including the individual blog pages themseleves.
-- The nav-bar 'secondary mode' on mobile devies allows for even further ease of naivgation.
-- The use of the 'burger' icon over the entire nav-bar itself creates less of a cluster on the mobile devices aiding in the websites visual appearance.
-  - A very interesting and 'playful' feature is that of the 'popup-boxes' on the about me page.
-  - This not only prevents the user for having to scroll down the page to obtain informaiton, but gives the experience a bit of interactivity between the website, myself and the user.
+- The colour schemes and font styling makes the website very appealing, colourful and welcoming.
+- The nav-bar allows for easy navigation between all pages of the website including the individual blog pages themselves.
+- The nav-bar 'secondary mode' on mobile devices allows for even further ease of navigation.
+- The use of the 'burger' icon over the entire nav-bar creates less of a cluster on mobile devices aiding in the websites visual appearance.
+  - A very interesting and 'playful' feature is the 'popup-boxes' on the About Me page.
+  - This not only prevents the user for having to scroll down the page to obtain information, but gives the experience a sense of interactivity between the website, myself and the user.
 
 ### **Sitemap**
 
-- The sitemap below depicts from an early development stage a very simplistic, user-friendly flow between all pages throughtout the website.
+- From initial development of my website, I wanted a very simplistic structure that offered a user friendly interaction alongside smooth navigation between all pages of the site.
 
  ![Portfolio Website Sitemap](./docs/Screenshots/Sitemap.jpg)
 
@@ -140,28 +140,28 @@
 
 ### **Current Version**
 
-- The current version of the website in comparsion to the original desgin pitched throughtout the wireframes show minimal change.
-- The original desgin for the website was to include a transitional element that would scroll from the right side of the screen to the left.
+- The current version of the website in comparison to the original design pitched throughout the wireframes show minimal change.
+- The original design for the website included a transitional element that would scroll from the right side of the screen to the left.
 - The purpose of the page transition was to add value to the site's aesthetics. 
-- The page transition was implemented  into an early mockup of the website. However due to functionality restraints removed.
+- The page transition was implemented  into an early mockup of the website. However due to functionality restraints, it was removed.
 - Tablet and mobile view of the website had minor changes made in regards to element positioning and sizing.
-- These changes were implemented to  maximize the sites effectiveness and how efficiently it performed on different platforms.
+- These changes were implemented to  maximise the sites effectiveness and efficiency when performed on different platforms.
 
 ### **Target Audience**
 
-- The target audience of my website is that of:
+- The target audience of my website are:
 - Future employers.
-  - The key purpose of this portfolio website is to desmonstrate my mindset, passion capabilities and talents for future employment.
+  - The key purpose of this portfolio website is to demonstrate my mindset, passion capabilities and talents for future employment.
 - Future clients.
-  - The website can also fucntion as a platform to adverstice my skills, vision and talents for future clients.
+  - The website can also function as a platform to advertise my skills, vision and talents for future clients.
 - Like minded developers.
-  - In addition to platforms like Git Hub and Codepen, my portfolio website can be another staging ground for future collaborations with fellow developers.
+  - In addition to platforms like Git Hub and Code pen, my portfolio website is another staging ground for future collaborations with fellow developers.
 
 ### **Tech Stack**
 
-- Throughtout my creative process of developing this website, I considered variours stacks and platforms.
+- Throughout my creative process of developing this website, I considered various stacks and platforms.
 - Inevitability  the website was developed around a few key stacks.
-- The latest version and current version of my protfolio website is compossed of the following:
+- The latest version and current version of my portfolio website is composed of the following:
 - HTML 5
 - CSS
 - Java Script

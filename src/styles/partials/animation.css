@@ -1,7 +1,7 @@
     /* Contact Icons */
     
     .wrapper h1 {
-        font-family: 'Poppins', sans-serif;
+        font-family: myFirstFont;
         font-weight: lighter;
         font-size: 40px;
         color: #ffffff;
@@ -14,7 +14,7 @@
     /* Styling for Icon container */
     
     .wrapper p {
-        font-family: 'Poppins', sans-serif;
+        font-family: myFirstFont;
         font-weight: lighter;
         font-size: 50px;
         color: #ffffff;
@@ -259,7 +259,7 @@
         }
         .cycle .button.large {
             font-size: 10px;
-            font-family: 'Poppins', sans-serif;
+            font-family: myFirstFont;
             font-weight: 600;
             padding: 5px 5px;
             align-items: flex-end;
@@ -310,7 +310,7 @@
         }
         .cycle .button.large {
             font-size: 15px;
-            font-family: 'Poppins', sans-serif;
+            font-family: myFirstFont;
             font-weight: 600;
             padding: 10px 2px;
             align-items: flex-end;
@@ -359,7 +359,7 @@
         }
         .cycle .button.large {
             font-size: 12px;
-            font-family: 'Poppins', sans-serif;
+            font-family: myFirstFont;
             font-weight: 600;
             padding: 5px 5px;
             align-items: flex-end;
@@ -408,7 +408,7 @@
         }
         .cycle .button.large {
             font-size: 20px;
-            font-family: 'Poppins', sans-serif;
+            font-family: myFirstFont;
             font-weight: 600;
             padding: 5px 5px;
             align-items: flex-end;
@@ -457,7 +457,7 @@
         }
         .cycle .button.large {
             font-size: 25px;
-            font-family: 'Poppins', sans-serif;
+            font-family: myFirstFont;
             font-weight: 600;
             padding: 5px 5px;
             align-items: flex-end;
@@ -475,7 +475,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        font-family: 'Poppins', sans-serif;
+        font-family: myFirstFont;
     }
     /* Add flex  properties to all elements within the aboutme contianer.*/
     
@@ -484,7 +484,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        font-family: 'Poppins', sans-serif;
+        font-family: myFirstFont;
         margin-bottom: 30px;
     }
     /* Styling  properties to all volume elements.*/
@@ -496,7 +496,7 @@
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
-            font-family: 'Poppins', sans-serif;
+            font-family: myFirstFont;
         }
         .blogs {
             display: flex;
@@ -550,7 +550,7 @@
     .button.large {
         font-size: 10px;
         color: rgb(7, 7, 7);
-        font-family: 'Poppins', sans-serif;
+        font-family: myFirstFont;
         font-weight: 600;
         padding: 5px 5px;
         align-items: flex-end;
@@ -561,7 +561,7 @@
         .button.large {
             font-size: 20px;
             color: rgb(7, 7, 7);
-            font-family: 'Poppins', sans-serif;
+            font-family: myFirstFont;
             font-weight: 600;
             padding: 10px 10px;
             align-items: flex-end;
@@ -625,7 +625,7 @@
     .popup-inner {
         position: relative;
         z-index: 0;
-        max-width: 600px;
+        max-width: 500px;
         max-height: 500px;
         padding: 10px 10px;
         background-color: #292929;
@@ -718,3 +718,18 @@
         }
     }
     /* When screen @ 320 or less, change styling and poistioning for close button in popup box. */
+    
+    @media screen and (min-height: 1300px) {
+        .popup-inner {
+            position: relative;
+            z-index: 0;
+            max-width: 500px;
+            max-height: 500px;
+            padding: 10px 10px;
+            background-color: #292929;
+            border-radius: 16px;
+            box-shadow: rgba( 0, 0, 0, 0.1);
+            margin-bottom: 510px;
+        }
+        /* When screen @ 1300 or more, change styling and poistioning for close button in popup box. */
+    }

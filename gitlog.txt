@@ -1,0 +1,251 @@
+commit 8b95cf2663d50ec13adbea4b0570700a7b01190c
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Thu Nov 12 19:16:01 2020 +1100
+
+    reworked files
+
+commit 712712163c0a27f166028e3c34cc05f369054687
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Thu Nov 12 19:01:42 2020 +1100
+
+    added some changes
+
+commit 4e48b06e69257a735d38cc0b39ab56115893a392
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Wed Nov 11 21:43:11 2020 +1100
+
+    added ppt pdf
+
+commit dd2cff4e0f6ad31a3651a7995f7c65d64a4df61c
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Wed Nov 11 18:42:11 2020 +1100
+
+    added more to readme
+
+commit 19d679e0861545eca212a247a44a1c957740c310
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Wed Nov 11 18:23:43 2020 +1100
+
+    changed spelling mistakes
+
+commit 531b6dec69fb799e5787b28ca2d09729aad4c35d
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Tue Nov 10 16:38:15 2020 +1100
+
+    more changes to readme
+
+commit e45d635044f73a161b8a6865871f632edd138ded
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Tue Nov 10 15:29:17 2020 +1100
+
+    edited readme
+
+commit f2546bd56843526ce8b97d1813715c4abaaa1bb6
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Tue Nov 10 15:06:39 2020 +1100
+
+    completed readme
+
+commit 15a2ec352e538f6b33eadf2ea4db8c947849b0d0
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 23:33:04 2020 +1100
+
+    added notes
+
+commit 7ed01b1f3e1235b9637927e3e31c33e62cadbcb7
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 22:45:16 2020 +1100
+
+    added new dates
+
+commit a226950c6ef035b4c4492f84316e1297eca21b5d
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 22:43:31 2020 +1100
+
+    changed dates agian
+
+commit 24f4bf3da0167b7595680f08e5635d9daf607e88
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 22:41:39 2020 +1100
+
+    fixed dates
+
+commit a20b6de7384c00013bfa15c1f1f973e6b16da626
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 22:37:07 2020 +1100
+
+    added css comments
+
+commit 6a778782e7d7236c4d3e1ed7294a11d5418e2a5a
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 22:06:21 2020 +1100
+
+    resizing
+
+commit df8e90d133366c141fc2a6c47e14b98b96db7352
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 21:40:43 2020 +1100
+
+    spelling errors
+
+commit d7836abd429738a177f3ef58c84c834a70547e2f
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 21:38:53 2020 +1100
+
+    added blog publish dates
+
+commit 0c3b1838ee242eb02323bd2681192e2dc2117d5a
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 20:34:25 2020 +1100
+
+    fixed spelling mistakes
+
+commit 3f6addf8a8f3995991e58a39886a582e9ffa5dfd
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 20:16:50 2020 +1100
+
+    fixed several issues
+
+commit cbbccb95a466167b4ec80565ef3133f375c14b5f
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 18:20:33 2020 +1100
+
+    added favicon to all pages
+
+commit c811fe72ae1ee153986bece487b74db2115ff621
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 18:14:39 2020 +1100
+
+    fixed spelling
+
+commit c877bd148b25b82582bbd3c744b6bab39e0494dd
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 17:36:14 2020 +1100
+
+    added favicon
+
+commit b7a408538e66ba2b8bebd1f394e4aa0658a87af9
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Mon Nov 9 15:16:09 2020 +1100
+
+    fixed mobile/tablet resizing issues
+
+commit 8401ba6df55a3b2205e8d6d4d0e2a03d3ab99a93
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sun Nov 8 22:23:01 2020 +1100
+
+    added bios
+
+commit c96dda609b5f804ed0e7bd8155bea3155a7dafeb
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sun Nov 8 12:35:20 2020 +1100
+
+    added trademark
+
+commit b5d6b8e54d9e2ce68408eb8ba397c2dc789b2552
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sun Nov 8 12:05:02 2020 +1100
+
+    added contacts
+
+commit 6c6e986ebc58d0e43fc6a3dd35477cd57098c703
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sun Nov 8 11:34:55 2020 +1100
+
+    fixed bug
+
+commit 3d27164392b4d80f2a4d6941baa1820b35314023
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sun Nov 8 11:17:17 2020 +1100
+
+    resized popup buttons
+
+commit 566b2c5e4a121b6bb9185c13f00cef2fda9576bd
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sat Nov 7 22:59:06 2020 +1100
+
+    add blog pages
+
+commit 2178f26b30c20cc762fd2a4de5d01d2ea108544d
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sat Nov 7 20:34:00 2020 +1100
+
+    added styling
+
+commit 83f2944dd2faf54d532bd006165696843e9a1ad2
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sat Nov 7 19:56:32 2020 +1100
+
+    added projects
+
+commit 12a9ac88b14db2050c187903dc30d818a9c27cd0
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sat Nov 7 12:42:27 2020 +1100
+
+    added about me
+
+commit 7ed424d3631dc58706dddf97bdcd47b69d678a5a
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 21:46:44 2020 +1100
+
+    added popup boxes
+
+commit 87abd7de5fdf05b13a1aaf1d5a895aded5e531b1
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 19:49:16 2020 +1100
+
+    edited main text
+
+commit 0c1ff00219fbc264db46092ba992b0342c11418c
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 19:34:55 2020 +1100
+
+    added text and titles
+
+commit 5c92ac54bc1d33917207547fa5617cc461e0bfa4
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 17:34:03 2020 +1100
+
+    changed dir
+
+commit 5692df9e5a01268ea8080e9188f63b27a736944c
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 17:17:54 2020 +1100
+
+    fixed index
+
+commit 7b08cb785410ff39f0e9e91848fff9e9505da66d
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 17:14:49 2020 +1100
+
+    arranged files
+
+commit 02f9b8b9cf42b8e80f4a75dd03e4a0ecc08c1a64
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 12:30:26 2020 +1100
+
+    added contact icons
+
+commit 4ef180db5072380863b82b6f86f75f8ca4ca7dff
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 11:45:26 2020 +1100
+
+    added gradient background
+
+commit 7291315d16134cff1cdd8de1dc920d35df7dd779
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 10:52:36 2020 +1100
+
+    added navbar
+
+commit 08cf847fe65d0c2df2a9fbc8e3d4e88180eebd3f
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 09:04:40 2020 +1100
+
+    added files
+
+commit 42eb985134da60a157e3fcf12edcb9dd5118c2f4
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 6 09:02:30 2020 +1100
+
+    first commit

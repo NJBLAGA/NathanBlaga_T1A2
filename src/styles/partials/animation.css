@@ -705,7 +705,7 @@
             position: absolute;
             right: 0px;
             -ms-transform: translate(-50%, -100%);
-            transform: translate(-30%, 80%);
+            transform: translate(-30%, 30%);
         }
         button.button.dwb2 {
             font-size: 15px;
@@ -714,7 +714,7 @@
             position: absolute;
             right: 0px;
             -ms-transform: translate(-50%, -100%);
-            transform: translate(-20%, 190%);
+            transform: translate(-20%, 180%);
         }
     }
     /* When screen @ 320 or less, change styling and poistioning for close button in popup box. */

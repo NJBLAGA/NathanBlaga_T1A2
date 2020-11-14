@@ -166,3 +166,15 @@
 - CSS
 - Java Script
 - Netlify
+
+### **Ethical Issues**
+
+- Throughout the development of the website, it was crucial to safeguard the integrity of myself and the website itself.
+- Ethical issues that were concerned for the development of the website included:
+    - Ensuring the website delivered on its initial purpose.
+    - Sticking to the orginal desgin of the website without breaking any copyright laws.
+    - Ensuring the website did not discriminate or protray offensive content.
+    - Safeguarding the website and its users by intergrating subsource integrity on all external sources linked to the project.
+    
+
+

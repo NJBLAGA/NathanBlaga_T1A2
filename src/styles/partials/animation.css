@@ -646,12 +646,12 @@
     /* Styling and poistioning for close button in popup box. */
     
     button.button.dwb2 {
-        font-size: 25px;
+        font-size: 15px;
         margin-top: 15px;
         position: absolute;
         right: 0px;
         -ms-transform: translate(-50%, -100%);
-        transform: translate(-20%, -170%);
+        transform: translate(-20%, -200%);
     }
     /* Secondary styling and poistioning for close button in popup box. */
     
@@ -718,6 +718,30 @@
         }
     }
     /* When screen @ 320 or less, change styling and poistioning for close button in popup box. */
+    
+    @media screen and (min-width: 540px) {
+        button.button.dwb1 {
+            font-size: 15px;
+            margin-top: 40px;
+            margin: 0;
+            position: absolute;
+            right: 0px;
+            -ms-transform: translate(-50%, -100%);
+            transform: translate(-20%, -150%);
+        }
+    }
+    
+    @media screen and (min-width: 545px) {
+        button.button.dwb1 {
+            font-size: 15px;
+            margin-top: 40px;
+            margin: 0;
+            position: absolute;
+            right: 0px;
+            -ms-transform: translate(-50%, -100%);
+            transform: translate(-30%, -350%);
+        }
+    }
     
     @media screen and (min-height: 1300px) {
         .popup-inner {

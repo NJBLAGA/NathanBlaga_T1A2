@@ -673,7 +673,7 @@
             position: absolute;
             right: 0px;
             -ms-transform: translate(-50%, -100%);
-            transform: translate(-35%, -20%);
+            transform: translate(-20%, -20%);
         }
         button.button.dwb2 {
             font-size: 15px;
@@ -683,6 +683,14 @@
             right: 0px;
             -ms-transform: translate(-50%, -100%);
             transform: translate(-20%, -30%);
+        }
+        button.button.dwb3 {
+            font-size: 15px;
+            margin-top: 15px;
+            position: absolute;
+            right: 0px;
+            -ms-transform: translate(-50%, -100%);
+            transform: translate(-20%, 10%);
         }
     }
     /* When screen @ 539 or less, change styling and poistioning for close button in popup box. */
@@ -729,6 +737,15 @@
             -ms-transform: translate(-50%, -100%);
             transform: translate(-20%, -150%);
         }
+        button.button.dwb3 {
+            font-size: 15px;
+            margin-top: 40px;
+            margin: 0;
+            position: absolute;
+            right: 0px;
+            -ms-transform: translate(-50%, -100%);
+            transform: translate(-20%, -150%);
+        }
     }
     
     @media screen and (min-width: 545px) {
@@ -739,7 +756,16 @@
             position: absolute;
             right: 0px;
             -ms-transform: translate(-50%, -100%);
-            transform: translate(-30%, -350%);
+            transform: translate(-30%, -450%);
+        }
+        button.button.dwb3 {
+            font-size: 15px;
+            margin-top: 40px;
+            margin: 0;
+            position: absolute;
+            right: 0px;
+            -ms-transform: translate(-50%, -100%);
+            transform: translate(-30%, -300%);
         }
     }
     

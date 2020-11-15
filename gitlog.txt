@@ -1,3 +1,63 @@
+commit b32de046deb6654b91b2438b9445729bbf9f2cbb
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sun Nov 15 12:33:54 2020 +1100
+
+    more changes
+
+commit 3b5489f4004e2b7a27199827d3db8a904c0f8125
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sun Nov 15 12:22:06 2020 +1100
+
+    final touches
+
+commit 94c35d9858557dbf2b45ee51120dcbef4513de6a
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sat Nov 14 20:40:20 2020 +1100
+
+    last spell check
+
+commit e87a89254be99ebd4ea9e7e00297623591999ee3
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sat Nov 14 19:05:03 2020 +1100
+
+    added docs
+
+commit 50d19ec5a2ec750894496da2905ae6c33c0afd56
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sat Nov 14 18:28:56 2020 +1100
+
+    added SRI
+
+commit cb8904db607c915ee79918bee1b9d631624710b9
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Sat Nov 14 17:24:07 2020 +1100
+
+    fixed close button
+
+commit b9d284ddc30a650f299cc49b622389fb479c2199
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Fri Nov 13 12:18:10 2020 +1100
+
+    fixed responise sizing issue
+
+commit 5e5b38455a3191310185d8f1c0c7826e1777c6a9
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Thu Nov 12 20:26:09 2020 +1100
+
+    fixed bugs
+
+commit 7fc1b6feffe546c224ab6f27e476365a2b828acd
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Thu Nov 12 20:15:38 2020 +1100
+
+    changes to popup
+
+commit 69c31964e1f84462cfdd036d270e0382ea9d14a9
+Author: NJBLAGA <nathanblaga90@gmail.com>
+Date:   Thu Nov 12 20:04:32 2020 +1100
+
+    changed mobile sizing
+
 commit 8b95cf2663d50ec13adbea4b0570700a7b01190c
 Author: NJBLAGA <nathanblaga90@gmail.com>
 Date:   Thu Nov 12 19:16:01 2020 +1100

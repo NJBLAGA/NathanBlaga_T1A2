@@ -1,4 +1,4 @@
-# **NathanBlaga_T1A2 - Portfolio Website Readme**
+# **Portfolio Website**
 
 ## **Links:**
 
